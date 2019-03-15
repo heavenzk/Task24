@@ -4,6 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const fs = require('fs');
+const handleBars = require('hbs');
 
 const rawData = fs.readFileSync('person.json');
 
@@ -11,6 +12,9 @@ const indexRouter = require('./routes/index');
 const cvRouter = require('./routes/cv');
 
 const app = express();
+
+handleBars.registerPartial({ nav: require('./views/partials/nav') });
+handleBars.registerPartial({ footer: require('./views/partials/footer') });
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

@@ -1,46 +1,55 @@
 {
-  "firstname": "Craig",
-  "lastname": "Marais",
-  "birtdate": "30.06.1985",
-  "email":"df@fg.com",
+  "firstname": "Thinh",
+  "lastname": "To",
+  "birtdate": "10.07.1995",
+  "email":"thinh.to@no.experis.com",
   "address": [
     {
-      "city": "Testtown",
+      "city": "Oslo",
       "country": "Norway"
     }
   ],
   "experience": [
     {
+      "employer": "Experis Academy",
+      "title": "Fullstack Java Developer",
+      "startdate": "2019",
+      "enddate": "now"
+    },
+    {
       "employer": "Microsoft",
-      "title": "Programmer",
-      "startdate": "2000",
-      "enddate": "2009"
+      "title": "Software Engineer",
+      "startdate": "2017",
+      "enddate": "2019"
     },
     {
       "employer": "Google",
-      "title": "Boss",
-      "startdate": "2009",
-      "enddate": "2019"
+      "title": "Junior Developer",
+      "startdate": "2014",
+      "enddate": "2017"
     }
   ],
   "education": [
     {
-      "school": "UiO",
-      "program": "Programming",
-      "degree": "Bachelor of Science",
-      "startdate": "1992",
-      "graduated": "1995"
+      "school": "Westerdals Oslo Act",
+      "program": "Intelligence Systems",
+      "degree": "Bachelor",
+      "startdate": "2015",
+      "graduated": "2018"
     }
   ],
   "qualifications": [
     "Java",
-    "C",
-    "Python"
+    "C#",
+    "Python",
+    "React",
+    "Angular",
+    "Spring Framework"
   ],
   "links": [
     {
-      "linkedin": "linkedin.com",
-      "github": "github.com"
+      "linkedin": "https://www.linkedin.com/in/thinh-to-8935a1151/",
+      "github": "https://github.com/heavenzk"
     }
   ]
 }
