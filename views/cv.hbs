@@ -3,10 +3,10 @@
     <div class="section">
       <!-- Biography -->
       <div class="row">
-        <div class="col s5">
+        <div class="col s6 m5">
           <h5 class="right">Biography</h5>
         </div>
-        <div class="col s7">
+        <div class="col s6 m7">
           <div class="icon-block cv-list">
             <p class="light">{{person.firstname}} {{person.lastname}}</p>
             <p class="light">{{person.birtdate}}</p>
@@ -18,10 +18,10 @@
 
       <!-- Experience -->
       <div class="row">
-        <div class="col s5">
+        <div class="col s6 m5">
           <h5 class="right">Experience</h5>
         </div>
-        <div class="col s7">
+        <div class="col s6 m7">
           <div class="icon-block cv-list">
             {{#each person.experience}}
             <p class="light" style="font-weight: bold;">{{this.employer}}</p>
@@ -35,10 +35,10 @@
 
       <!-- Education -->
       <div class="row">
-        <div class="col s5">
+        <div class="col s6 m5">
           <h5 class="right">Education</h5>
         </div>
-        <div class="col s7">
+        <div class="col s6 m7">
           <div class="icon-block cv-list">
             {{#each person.education}}
             <p class="light" style="font-weight: bold;">{{this.school}}</p>
@@ -53,10 +53,10 @@
 
       <!-- Qualifications -->
       <div class="row">
-        <div class="col s5">
+        <div class="col s6 m5">
           <h5 class="right">Qualifications</h5>
         </div>
-        <div class="col s7">
+        <div class="col s6 m7">
           <div class="icon-block cv-list">
             {{#each person.qualifications}}
             <p class="light">{{this}}</p>
@@ -67,10 +67,10 @@
 
       <!-- Profiles -->
       <div class="row">
-        <div class="col s5">
+        <div class="col s6 m5">
           <h5 class="right">Profiles</h5>
         </div>
-        <div class="col s7">
+        <div class="col s6 m7">
           <div class="icon-block cv-list">
             <p><a class="light" href="{{person.links.0.linkedin}}" target="_blank">LinkedIn</a></p>
             <p><a class="light" href="{{person.links.0.github}}" target="_blank">Github</a></p>
