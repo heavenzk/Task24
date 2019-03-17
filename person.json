@@ -2,7 +2,8 @@
   "firstname": "Thinh",
   "lastname": "To",
   "birtdate": "10.07.1995",
-  "email":"thinh.to@no.experis.com",
+  "email": "thinh.to@no.experis.com",
+  "summary": "Thinh To has a bachelor's degree from the Westerdals Oslo Act within intelligent systems. Since childhood the consultant has been interested in how a computer works, a game was developed and thus has a passion for technology. Through the program, the consultant has learned programming languages ​​such as Java, C #, JavaScript, C and C ++. During his studies, he has gained good experience with how to work in teams using Scrum through school projects. He thrives well on work in teams, but also independently. The consultant always keeps abreast of new technologies and broadening his knowledge of reading news, StackOverflow and Medium. In his spare time, he spends much of his time learning exciting technologies through the Udemy and LinkedIn Learning platform. Thinh is an outgoing person, purposeful, solution-oriented and cooperative. He is motivated by challenges, exciting projects and not least a good team.",
   "address": [
     {
       "city": "Oslo",
